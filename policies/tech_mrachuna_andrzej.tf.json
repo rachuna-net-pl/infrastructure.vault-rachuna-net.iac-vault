@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "tech_mrachuna_andrzej": {
+        "name": "tech-mrachuna-andrzej",
+        "policy": ""
+      }
+    }
+  }
+}

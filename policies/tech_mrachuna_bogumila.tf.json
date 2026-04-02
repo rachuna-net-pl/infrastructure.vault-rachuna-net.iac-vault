@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "tech_mrachuna_bogumila": {
+        "name": "tech-mrachuna-bogumila",
+        "policy": ""
+      }
+    }
+  }
+}

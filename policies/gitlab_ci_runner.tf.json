@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "gitlab_ci_runner": {
+        "name": "gitlab-ci-runner",
+        "policy": ""
+      }
+    }
+  }
+}

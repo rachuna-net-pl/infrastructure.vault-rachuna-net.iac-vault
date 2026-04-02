@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "role_approle_tech_mrachuna_vault_manager": {
+        "name": "role-approle-tech-mrachuna-vault-manager",
+        "policy": ""
+      }
+    }
+  }
+}

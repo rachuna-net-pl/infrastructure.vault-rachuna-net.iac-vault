@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "gitlab_ci_shared_auth": {
+        "name": "gitlab-ci-shared-auth",
+        "policy": ""
+      }
+    }
+  }
+}

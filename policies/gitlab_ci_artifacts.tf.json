@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "gitlab_ci_artifacts": {
+        "name": "gitlab-ci-artifacts",
+        "policy": ""
+      }
+    }
+  }
+}

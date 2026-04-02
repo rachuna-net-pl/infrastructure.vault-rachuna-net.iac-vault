@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "default": {
+        "name": "default",
+        "policy": ""
+      }
+    }
+  }
+}

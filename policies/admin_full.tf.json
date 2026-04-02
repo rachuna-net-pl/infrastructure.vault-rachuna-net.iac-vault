@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "admin_full": {
+        "name": "admin-full",
+        "policy": ""
+      }
+    }
+  }
+}
