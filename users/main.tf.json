@@ -1,0 +1,13 @@
+{
+  "locals": {
+    "default_password_kv_path": "defaults_passwords"
+  },
+  "module": {
+    "dragoslawai": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=v1.0.0",
+      "username": "dragoslawai",
+      "policies": ["tech-mrachuna-dragoslaw"],
+      "default_password_kv_path": "${local.default_password_kv_path}/dragoslawai"
+    }
+  }
+}
