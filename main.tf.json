@@ -9,8 +9,8 @@
       "policies": ["tech-mrachuna-dragoslaw"],
       "password_length": 24,
       "store_password_in_kv": true,
-      "kv_mount": "users",
-      "password_kv_path": "storage_default_password/dragoslawa"
+      "default_password_kv_mount": "users",
+      "default_password_kv_path": "storage_default_password/dragoslawa"
     }
   }
 }
