@@ -28,7 +28,7 @@ Repozytorium zawiera pełną konfigurację HashiCorp Vault zapisaną w formacie 
 | Secrets Engines — KV | #5 → #2 | `kv/*.tf.json` | ✅ MR !4 |
 | Auth Methods | #6 | `auth/*.tf.json` | ✅ MR !5 |
 | AppRoles | #7 | `approles/*.tf.json` | ⏳ |
-| Users (userpass) | #8 | `users/*.tf.json` | ⏳ |
+| Users (userpass) | #8 | `users/` (passwords external) | ✅ MR !7 |
 | PKI | #9 | `pki/*.tf.json` | ⏳ |
 | JWT/OIDC | #10 | `auth/jwt.tf.json` | ⏳ |
 
