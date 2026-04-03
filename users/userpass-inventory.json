@@ -1,0 +1,47 @@
+{
+  "note": "Userpass users inventory - passwords are NOT stored in IaC",
+  "users": [
+    {
+      "username": "mrachuna",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech-mrachuna-orchestrator",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech-mrachuna-vault-manager",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech.mrachuna.developer",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech.mrachuna.discipline",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech.mrachuna.gitops",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    },
+    {
+      "username": "tech.mrachuna.infrastructure",
+      "managed": "externally",
+      "password_in_vault": true,
+      "password_in_tf": false
+    }
+  ]
+}
