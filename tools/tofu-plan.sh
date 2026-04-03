@@ -18,7 +18,6 @@ echo "   State:   ${TF_STATE_NAME}"
 
 rm -fr .terraform*
 
-
 tofu init \
   -backend-config="address=${CI_SERVER_URL}/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${TF_STATE_NAME}" \
   -backend-config="lock_address=${CI_SERVER_URL}/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${TF_STATE_NAME}/lock" \
@@ -30,3 +29,7 @@ tofu init \
   -backend-config="retry_wait_min=5"
 
 echo "✅ OpenTofu initialized."
+
+tofu plan
+echo "✅ OpenTofu plan."
+
