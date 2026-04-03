@@ -1,0 +1,14 @@
+{
+  "resource": {
+    "vault_mount": {
+      "users_kv": {
+        "path": "users",
+        "type": "kv-v2",
+        "description": "KV v2 secret engine for user secrets",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}
