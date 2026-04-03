@@ -1,0 +1,14 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pl_rachuna_net_kv": {
+        "path": "pl.rachuna-net",
+        "type": "kv-v2",
+        "description": "KV v2 secret engine for pl.rachuna-net domain secrets",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}
