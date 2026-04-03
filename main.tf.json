@@ -2,6 +2,9 @@
   "module": {
     "kv": {
       "source": "./kv/"
+    },
+    "users": {
+      "source": "./users/"
     }
   }
 }
