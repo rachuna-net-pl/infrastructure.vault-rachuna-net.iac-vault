@@ -19,6 +19,7 @@ GITLAB_TOKEN="${GITLAB_TOKEN:-${GL_TOKEN:-}}"
 [[ -z "$GITLAB_TOKEN" ]] && { echo "✗ Set GITLAB_TOKEN or GL_TOKEN"; exit 1; }
 
 PROJECT_ID="78249750"
+export USERNAME GITLAB_TOKEN PROJECT_ID BRANCH
 MODULE_SOURCE="git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=v1.0.0"
 
 # --- Build .tf.json ---
