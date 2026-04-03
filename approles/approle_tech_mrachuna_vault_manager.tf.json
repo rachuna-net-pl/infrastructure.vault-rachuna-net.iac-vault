@@ -1,0 +1,19 @@
+{
+  "resource": {
+    "vault_approle_auth_backend_role": {
+      "approle_tech_mrachuna_vault_manager": {
+        "backend": "approle",
+        "role_name": "approle-tech-mrachuna-vault-manager",
+        "token_policies": [],
+        "bind_secret_id": true,
+        "secret_id_num_uses": null,
+        "token_ttl": "3600",
+        "token_max_ttl": "14400",
+        "secret_id_ttl": "2592000",
+        "token_num_uses": null,
+        "token_period": null,
+        "token_explicit_max_ttl": null
+      }
+    }
+  }
+}
