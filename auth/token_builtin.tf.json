@@ -1,0 +1,5 @@
+{
+  "resource": {
+    "note": "token auth backend is built-in and does not need vault_auth_backend resource"
+  }
+}

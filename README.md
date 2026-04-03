@@ -26,7 +26,7 @@ Repozytorium zawiera pełną konfigurację HashiCorp Vault zapisaną w formacie 
 |--------|-------|--------|--------|
 | Polityki ACL | #4 | `policies/*.tf.json` | ✅ |
 | Secrets Engines — KV | #5 → #2 | `kv/*.tf.json` | ✅ MR !4 |
-| Auth Methods | #6 | `auth/*.tf.json` | ⏳ |
+| Auth Methods | #6 | `auth/*.tf.json` | ✅ MR !5 |
 | AppRoles | #7 | `approles/*.tf.json` | ⏳ |
 | Users (userpass) | #8 | `users/*.tf.json` | ⏳ |
 | PKI | #9 | `pki/*.tf.json` | ⏳ |

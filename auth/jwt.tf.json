@@ -1,0 +1,11 @@
+{
+  "resource": {
+    "vault_auth_backend": {
+      "jwt": {
+        "type": "jwt",
+        "path": "jwt",
+        "description": ""
+      }
+    }
+  }
+}
