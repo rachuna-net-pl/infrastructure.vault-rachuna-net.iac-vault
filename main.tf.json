@@ -7,9 +7,6 @@
       "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=feat/v1-module",
       "username": "dragoslawa",
       "policies": ["tech-mrachuna-dragoslaw"],
-      "password_length": 24,
-      "store_password_in_kv": true,
-      "user_kv_mount": "users",
       "default_password_kv_path": "storage_default_password/dragoslawa"
     }
   }
