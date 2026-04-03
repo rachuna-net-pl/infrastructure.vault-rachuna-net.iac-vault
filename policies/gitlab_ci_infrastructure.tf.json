@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "gitlab_ci_infrastructure": {
+        "name": "gitlab-ci-infrastructure",
+        "policy": ""
+      }
+    }
+  }
+}

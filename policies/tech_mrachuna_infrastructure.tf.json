@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "tech_mrachuna_infrastructure": {
+        "name": "tech-mrachuna-infrastructure",
+        "policy": ""
+      }
+    }
+  }
+}

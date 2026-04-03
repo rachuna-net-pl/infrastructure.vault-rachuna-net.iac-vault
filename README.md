@@ -84,7 +84,7 @@ Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub u
 ---
 
 ## License
-[Licencja](LICENSE) oparta na zasadach Creative Commons BY-NC-SA 4.0, dostosowana do potrzeb projektu.
+[Licencja](LICENCE) oparta na zasadach Creative Commons BY-NC-SA 4.0, dostosowana do potrzeb projektu.
 
 ---
 

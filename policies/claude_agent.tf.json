@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "claude_agent": {
+        "name": "claude-agent",
+        "policy": ""
+      }
+    }
+  }
+}

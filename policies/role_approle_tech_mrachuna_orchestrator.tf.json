@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "role_approle_tech_mrachuna_orchestrator": {
+        "name": "role-approle-tech-mrachuna-orchestrator",
+        "policy": ""
+      }
+    }
+  }
+}

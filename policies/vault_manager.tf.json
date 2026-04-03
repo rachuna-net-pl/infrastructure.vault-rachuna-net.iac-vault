@@ -1,0 +1,10 @@
+{
+  "resource": {
+    "vault_policy": {
+      "vault_manager": {
+        "name": "vault-manager",
+        "policy": ""
+      }
+    }
+  }
+}
