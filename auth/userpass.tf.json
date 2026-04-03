@@ -4,7 +4,8 @@
       "userpass": {
         "type": "userpass",
         "path": "userpass",
-        "description": ""
+        "default_lease_ttl_seconds": 2592000,
+        "max_lease_ttl_seconds": 2592000
       }
     }
   }
