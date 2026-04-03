@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pki_store": {
+        "path": "pki-store",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}

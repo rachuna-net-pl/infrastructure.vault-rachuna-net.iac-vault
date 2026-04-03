@@ -6,6 +6,7 @@
 - [ ] Czy jest `LICENCE`
 - [ ] Czy jest `CONTRIBUTING.md`
 - [ ] Czy `README.md` ma poprawną strukturę
+- [ ] Czy zaktualizowano `README.md`
 
 ```markdown
 # <img src="docs/tavatar.png" alt="avatar" height="20"/> {{ friendly Repository Name }}

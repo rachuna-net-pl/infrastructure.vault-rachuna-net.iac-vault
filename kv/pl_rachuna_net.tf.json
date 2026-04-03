@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pl_rachuna_net": {
+        "path": "pl.rachuna-net",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "tech_mrachuna_gitops": {
+        "path": "tech-mrachuna-gitops",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}

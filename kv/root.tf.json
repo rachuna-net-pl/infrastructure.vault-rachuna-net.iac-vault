@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "root": {
+        "path": "root",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}

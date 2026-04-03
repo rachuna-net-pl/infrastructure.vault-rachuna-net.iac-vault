@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "tech_mrachuna_infrastructure": {
+        "path": "tech.mrachuna.infrastructure",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}

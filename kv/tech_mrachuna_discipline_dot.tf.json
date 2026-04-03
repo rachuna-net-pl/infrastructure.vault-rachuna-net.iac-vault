@@ -1,0 +1,13 @@
+{
+  "resource": {
+    "vault_mount": {
+      "tech_mrachuna_discipline_dot": {
+        "path": "tech.mrachuna.discipline",
+        "type": "kv",
+        "options": {
+          "version": "2"
+        }
+      }
+    }
+  }
+}
