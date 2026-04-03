@@ -1,0 +1,11 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pki": {
+        "path": "pki",
+        "type": "pki",
+        "max_lease_ttl": 315360000
+      }
+    }
+  }
+}

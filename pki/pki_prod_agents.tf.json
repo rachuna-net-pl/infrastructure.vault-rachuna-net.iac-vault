@@ -1,0 +1,11 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pki_prod_agents": {
+        "path": "pki-prod-agents",
+        "type": "pki",
+        "max_lease_ttl": 604800
+      }
+    }
+  }
+}

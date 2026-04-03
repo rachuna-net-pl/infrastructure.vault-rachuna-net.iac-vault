@@ -1,0 +1,11 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pki_staging_kubernetes": {
+        "path": "pki-staging-kubernetes",
+        "type": "pki",
+        "max_lease_ttl": 2592000
+      }
+    }
+  }
+}
