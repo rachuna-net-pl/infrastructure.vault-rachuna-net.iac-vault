@@ -10,7 +10,7 @@
       "password_length": 24,
       "store_password_in_kv": true,
       "kv_mount": "users",
-      "kv_path": "admins/{{username}}"
+      "password_kv_path": "storage_default_password/dragoslawa"
     }
   }
 }
