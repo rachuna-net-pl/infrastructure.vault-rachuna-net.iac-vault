@@ -1,10 +1,13 @@
 {
   "resource": {
-    "vault_auth_backend": {
+    "vault_jwt_auth_backend": {
       "jwt": {
-        "type": "jwt",
         "path": "jwt",
-        "description": ""
+        "type": "oidc",
+        "oidc_discovery_url": "https://gitlab.com",
+        "oidc_discovery_ca_pem": null,
+        "oidc_client_id": null,
+        "default_role": null
       }
     }
   }
