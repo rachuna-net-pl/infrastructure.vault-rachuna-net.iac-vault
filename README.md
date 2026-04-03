@@ -29,7 +29,7 @@ Repozytorium zawiera pełną konfigurację HashiCorp Vault zapisaną w formacie 
 | Auth Methods | #6 | `auth/*.tf.json` | ✅ MR !5 |
 | AppRoles | #7 | `approles/*.tf.json` | ✅ MR !6 |
 | Users (userpass) | #8 | `users/*.tf.json` | ⏳ |
-| PKI | #9 | `pki/*.tf.json` | ⏳ |
+| PKI | #6 | `pki/*.tf.json` | ✅ MR !8 |
 | JWT/OIDC | #10 | `auth/jwt.tf.json` | ⏳ |
 
 ---
