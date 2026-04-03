@@ -4,10 +4,16 @@
       "userpass": {
         "type": "userpass",
         "path": "userpass",
-        "config": {
-          "default_lease_ttl": 2592000,
-          "max_lease_ttl": 2592000
-        }
+        "tune": [{
+          "default_lease_ttl": "720h",
+          "max_lease_ttl": "720h",
+          "allowed_response_headers": [],
+          "audit_non_hmac_request_keys": [],
+          "audit_non_hmac_response_keys": [],
+          "listing_visibility": "unauth",
+          "passthrough_request_headers": [],
+          "token_type": "default-service"
+        }]
       }
     }
   }
