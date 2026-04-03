@@ -3,8 +3,14 @@
     "kv": {
       "source": "./kv/"
     },
-    "users": {
-      "source": "./users/"
+    "dragoslawa_user": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=feat/v1-module",
+      "username": "dragoslawa",
+      "policies": ["tech-mrachuna-dragoslaw"],
+      "password_length": 24,
+      "store_password_in_kv": true,
+      "kv_mount": "users",
+      "kv_path": "admins/{{username}}"
     }
   }
 }
