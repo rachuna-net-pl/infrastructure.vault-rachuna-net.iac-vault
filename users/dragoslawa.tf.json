@@ -1,0 +1,10 @@
+{
+  "module": {
+    "dragoslawa": {
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=feat/v1-module",
+      "username": "dragoslawa",
+      "policies": ["tech-mrachuna-dragoslaw"],
+      "default_password_kv_path": "storage_default_password/dragoslawa"
+    }
+  }
+}
