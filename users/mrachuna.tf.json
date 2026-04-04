@@ -1,7 +1,7 @@
 {
   "module": {
     "mrachuna": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=v1.0.1",
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=v1.1.0",
       "username": "mrachuna",
       "default_password_kv_path": "${local.default_password_kv_path}/mrachuna",
       "policies": ["admin-full"]
