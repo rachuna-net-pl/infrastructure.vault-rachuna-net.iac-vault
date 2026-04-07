@@ -1,0 +1,37 @@
+{
+  "resource": {
+    "vault_mount": {
+      "pki_root": {
+        "path": "pki-root",
+        "type": "pki",
+        "description": "Root CA for rachuna-net.pl",
+        "max_lease_ttl_seconds": 630720000
+      }
+    },
+    "vault_pki_secret_backend_root_cert": {
+      "pki_root": {
+        "backend": "${vault_mount.pki_root.path}",
+        "type": "internal",
+        "common_name": "rachuna-net.pl Root CA",
+        "ttl": "175200h",
+        "key_type": "rsa",
+        "key_bits": 4096,
+        "organization": "RACHUNA-NET.PL",
+        "ou": "RACHUNA-NET.PL PKI",
+        "country": "PL",
+        "locality": "Toruń"
+      }
+    },
+    "vault_pki_secret_backend_config_urls": {
+      "pki_root": {
+        "backend": "${vault_mount.pki_root.path}",
+        "issuing_certificates": [
+          "https://vault-1022.rachuna-net.pl:8200/v1/pki-root/ca"
+        ],
+        "crl_distribution_points": [
+          "https://vault-1022.rachuna-net.pl:8200/v1/pki-root/crl"
+        ]
+      }
+    }
+  }
+}
