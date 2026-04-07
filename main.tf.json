@@ -11,6 +11,9 @@
     },
     "audit": {
       "source": "./audit/"
+    },
+    "pki": {
+      "source": "./pki/"
     }
   }
 }
