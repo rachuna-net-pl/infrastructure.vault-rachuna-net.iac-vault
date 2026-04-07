@@ -1,0 +1,32 @@
+{
+  "locals": {
+    "vault_alt_names": [
+      "vault-1022.rachuna-net.pl",
+      "vault-1023.rachuna-net.pl",
+      "vault-1024.rachuna-net.pl",
+      "vault-1022",
+      "vault-1023",
+      "vault-1024"
+    ],
+    "vault_ip_sans": [
+      "10.3.1.22",
+      "10.3.1.23",
+      "10.3.1.24",
+      "10.3.1.253"
+    ]
+  },
+  "resource": {
+    "vault_pki_secret_backend_cert": {
+      "vault_rachuna_net_pl": {
+        "backend": "${var.pki_int_test_path}",
+        "name": "${var.role_vault_server}",
+        "common_name": "vault.rachuna-net.pl",
+        "alt_names": "${local.vault_alt_names}",
+        "ip_sans": "${local.vault_ip_sans}",
+        "ttl": "8760h",
+        "auto_renew": true,
+        "min_seconds_remaining": 604800
+      }
+    }
+  }
+}

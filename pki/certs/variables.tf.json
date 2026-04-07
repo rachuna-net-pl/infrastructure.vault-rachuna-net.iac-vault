@@ -1,0 +1,12 @@
+{
+  "variable": {
+    "pki_int_test_path": {
+      "description": "Mount path of the test intermediate CA",
+      "type": "string"
+    },
+    "role_vault_server": {
+      "description": "Name of the vault-server PKI role",
+      "type": "string"
+    }
+  }
+}

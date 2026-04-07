@@ -1,0 +1,8 @@
+{
+  "output": {
+    "vault_server": {
+      "description": "Name of the vault-server PKI role",
+      "value": "${vault_pki_secret_backend_role.vault_server.name}"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "module": {
+    "ca": {
+      "source": "./_ca"
+    },
+    "roles": {
+      "source": "./roles",
+      "pki_int_test_path": "${module.ca.pki_int_test_path}"
+    },
+    "certs": {
+      "source": "./certs",
+      "pki_int_test_path": "${module.ca.pki_int_test_path}",
+      "role_vault_server": "${module.roles.vault_server}"
+    }
+  }
+}
