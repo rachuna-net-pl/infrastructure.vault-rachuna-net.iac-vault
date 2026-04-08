@@ -36,6 +36,13 @@
         "certificate": "${vault_pki_secret_backend_root_sign_intermediate.pki_int_prod.certificate}"
       }
     },
+    "vault_generic_endpoint": {
+      "pki_int_prod_set_default": {
+        "path": "${vault_mount.pki_int_prod.path}/config/issuers",
+        "write_fields": ["default"],
+        "data_json": "{\"default\": \"14a08e4a-674d-c6ae-fc58-dce414305cf6\"}"
+      }
+    },
     "vault_pki_secret_backend_config_urls": {
       "pki_int_prod": {
         "backend": "${vault_mount.pki_int_prod.path}",
