@@ -10,7 +10,6 @@ terraform {
       version = "~> 3.7"
     }
   }
-  backend "http" {}
 }
 
 provider "vault" {
