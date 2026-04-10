@@ -10,6 +10,7 @@ terraform {
       version = "~> 3.7"
     }
   }
+  backend "http" {}
 }
 
 provider "vault" {
@@ -20,5 +21,5 @@ provider "vault" {
 variable "vault_address" {
   description = "Vault server URL"
   type        = string
-  default     = "https://vault-1022.rachuna-net.pl:8200"
+  default     = "https://vault-1023.rachuna-net.pl:8200"
 }

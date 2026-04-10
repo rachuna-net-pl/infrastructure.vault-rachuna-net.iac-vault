@@ -17,13 +17,13 @@
   },
   "resource": {
     "vault_pki_secret_backend_cert": {
-      "vault_rachuna_net_pl": {
+      "vault_rachuna_net_pl_test": {
         "backend": "${var.pki_int_test_path}",
         "name": "${var.role_vault_server}",
         "common_name": "vault.rachuna-net.pl",
         "alt_names": "${local.vault_alt_names}",
         "ip_sans": "${local.vault_ip_sans}",
-        "ttl": "8760h",
+        "ttl": "31536000",
         "auto_renew": true,
         "min_seconds_remaining": 604800
       }

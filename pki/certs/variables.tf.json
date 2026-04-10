@@ -4,6 +4,10 @@
       "description": "Mount path of the test intermediate CA",
       "type": "string"
     },
+    "pki_int_prod_path": {
+      "description": "Mount path of the production intermediate CA",
+      "type": "string"
+    },
     "role_vault_server": {
       "description": "Name of the vault-server PKI role",
       "type": "string"
