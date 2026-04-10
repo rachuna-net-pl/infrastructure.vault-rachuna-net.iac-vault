@@ -3,6 +3,10 @@
     "pki_int_test_path": {
       "description": "Mount path of the test intermediate CA",
       "type": "string"
+    },
+    "pki_int_prod_path": {
+      "description": "Mount path of the production intermediate CA",
+      "type": "string"
     }
   }
 }

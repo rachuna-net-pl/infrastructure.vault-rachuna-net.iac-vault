@@ -11,7 +11,7 @@
     "vault_pki_secret_backend_intermediate_cert_request": {
       "pki_int_prod": {
         "backend": "${vault_mount.pki_int_prod.path}",
-        "type": "internal",
+        "type": "exported",
         "common_name": "rachuna-net.pl Production Intermediate CA",
         "key_type": "rsa",
         "key_bits": 4096,

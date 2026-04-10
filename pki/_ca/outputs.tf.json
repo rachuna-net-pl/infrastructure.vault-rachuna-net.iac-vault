@@ -3,6 +3,10 @@
     "pki_root_path": {
       "value": "${vault_mount.pki_root.path}"
     },
+    "pki_int_prod_path": {
+      "description": "Mount path of the production intermediate CA — depends on signed cert being installed",
+      "value": "${vault_pki_secret_backend_intermediate_set_signed.pki_int_prod.backend}"
+    },
     "pki_int_test_path": {
       "description": "Mount path of the test intermediate CA — depends on signed cert being installed",
       "value": "${vault_pki_secret_backend_intermediate_set_signed.pki_int_test.backend}"

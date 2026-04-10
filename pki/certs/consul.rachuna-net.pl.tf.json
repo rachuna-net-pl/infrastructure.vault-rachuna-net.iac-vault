@@ -1,0 +1,32 @@
+{
+  "locals": {
+    "consul_alt_names": [
+      "consul-1022.rachuna-net.pl",
+      "consul-1023.rachuna-net.pl",
+      "consul-1024.rachuna-net.pl",
+      "consul-1022",
+      "consul-1023",
+      "consul-1024"
+    ],
+    "consul_ip_sans": [
+      "10.3.1.22",
+      "10.3.1.23",
+      "10.3.1.24",
+      "10.3.1.253"
+    ]
+  },
+  "resource": {
+    "vault_pki_secret_backend_cert": {
+      "consul_rachuna_net_pl_test": {
+        "backend": "${var.pki_int_test_path}",
+        "name": "consul-server",
+        "common_name": "consul.rachuna-net.pl",
+        "alt_names": "${local.consul_alt_names}",
+        "ip_sans": "${local.consul_ip_sans}",
+        "ttl": "31536000",
+        "auto_renew": true,
+        "min_seconds_remaining": 604800
+      }
+    }
+  }
+}
