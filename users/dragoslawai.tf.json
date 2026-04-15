@@ -1,7 +1,7 @@
 {
   "module": {
     "dragoslawai": {
-      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=v1.1.0",
+      "source": "git::https://gitlab.com/pl.rachuna-net/artifacts/opentofu/vault-userpass-account.git?ref=1.0.0",
       "username": "dragoslawai",
       "default_password_kv_path": "${local.default_password_kv_path}/dragoslawai"
     }

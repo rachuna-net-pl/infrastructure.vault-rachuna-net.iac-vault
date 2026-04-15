@@ -1,0 +1,24 @@
+{
+  "terraform": {
+    "required_version": ">= 1.10.5",
+    "required_providers": {
+      "vault": {
+        "source": "hashicorp/vault",
+        "version": "~> 5.0"
+      },
+      "random": {
+        "source": "hashicorp/random",
+        "version": "~> 3.7"
+      }
+    },
+    "backend": {
+      "http": {}
+    }
+  },
+  "provider": {
+    "vault": {
+      "address": "https://vault-1023.rachuna-net.pl:8200",
+      "skip_tls_verify": true
+    }
+  }
+}
