@@ -1,4 +1,4 @@
-# <img src="docs/tavatar.png" alt="avatar" height="20"/> Vault Infrastructure as Code
+# <img src="docs/tavatar.png" alt="avatar" height="30"/> Vault Infrastructure as Code
 
 ---
 
@@ -89,5 +89,5 @@ Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub u
 ---
 
 # Author Information
-### &emsp; Maciej Rachuna
+### Maciej Rachuna
 # <img src="docs/logo.png" alt="rachuna-net.pl" height="100"/>
